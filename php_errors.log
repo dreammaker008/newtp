@@ -1,0 +1,35 @@
+[18-Apr-2016 09:46:12 PRC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in D:\project\tp\Application\Home\Controller\IndexController.class.php on line 24
+[18-Apr-2016 14:05:15 PRC] PHP Parse error:  syntax error, unexpected '$response' (T_VARIABLE) in D:\project\tp\Application\Home\Controller\IndexController.class.php on line 47
+[19-Apr-2016 17:10:27 PRC] PHP Fatal error:  Class 'Home\Controller\AskRestModel' not found in D:\project\tp\Application\Home\Controller\IndexController.class.php on line 19
+[19-Apr-2016 17:11:55 PRC] PHP Fatal error:  Class 'Home\Controller\AskRestModel' not found in D:\project\tp\Application\Home\Controller\IndexController.class.php on line 19
+[19-Apr-2016 17:12:09 PRC] PHP Parse error:  syntax error, unexpected 'list' (T_LIST), expecting identifier (T_STRING) in D:\project\tp\Application\Home\Model\AskRestModel.class.php on line 19
+[19-Apr-2016 17:13:11 PRC] PHP Parse error:  syntax error, unexpected 'list' (T_LIST), expecting identifier (T_STRING) in D:\project\tp\Application\Home\Model\AskRestModel.class.php on line 19
+[19-Apr-2016 17:19:00 PRC] PHP Parse error:  syntax error, unexpected 'list' (T_LIST), expecting identifier (T_STRING) in D:\project\tp\Application\Home\Model\AskRestModel.class.php on line 19
+[19-Apr-2016 17:19:01 PRC] PHP Parse error:  syntax error, unexpected 'list' (T_LIST), expecting identifier (T_STRING) in D:\project\tp\Application\Home\Model\AskRestModel.class.php on line 19
+[19-Apr-2016 17:19:26 PRC] PHP Fatal error:  Class 'RestModel' not found in D:\project\tp\Application\Home\Model\AskRestModel.class.php on line 9
+[19-Apr-2016 17:28:58 PRC] PHP Fatal error:  Class 'RestModel' not found in D:\project\tp\Application\Home\Model\AskRestModel.class.php on line 9
+[19-Apr-2016 17:31:50 PRC] PHP Fatal error:  Unsupported operand types in D:\project\tp\Application\Home\Model\AskRestModel.class.php on line 16
+[19-Apr-2016 17:33:20 PRC] PHP Fatal error:  Unsupported operand types in D:\project\tp\Application\Home\Model\AskRestModel.class.php on line 16
+[19-Apr-2016 17:33:21 PRC] PHP Fatal error:  Unsupported operand types in D:\project\tp\Application\Home\Model\AskRestModel.class.php on line 16
+[19-Apr-2016 17:33:27 PRC] PHP Fatal error:  Unsupported operand types in D:\project\tp\Application\Home\Model\AskRestModel.class.php on line 16
+[19-Apr-2016 17:33:28 PRC] PHP Fatal error:  Unsupported operand types in D:\project\tp\Application\Home\Model\AskRestModel.class.php on line 16
+[19-Apr-2016 17:33:29 PRC] PHP Fatal error:  Unsupported operand types in D:\project\tp\Application\Home\Model\AskRestModel.class.php on line 16
+[19-Apr-2016 18:13:20 PRC] PHP Fatal error:  Call to undefined method Home\Model\AskRestModel::list() in D:\project\tp\Application\Home\Controller\IndexController.class.php on line 53
+[19-Apr-2016 18:13:39 PRC] PHP Parse error:  syntax error, unexpected 'list' (T_LIST), expecting identifier (T_STRING) in D:\project\tp\Application\Home\Model\AskRestModel.class.php on line 21
+[21-Apr-2016 10:13:36 PRC] PHP Fatal error:  Unsupported operand types in D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php on line 227
+[21-Apr-2016 10:16:49 PRC] PHP Fatal error:  Unsupported operand types in D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php on line 227
+[21-Apr-2016 10:19:56 PRC] PHP Fatal error:  Unsupported operand types in D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php on line 227
+[21-Apr-2016 10:19:57 PRC] PHP Fatal error:  Unsupported operand types in D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php on line 227
+[21-Apr-2016 10:21:27 PRC] PHP Fatal error:  Unsupported operand types in D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php on line 227
+[21-Apr-2016 10:21:28 PRC] PHP Fatal error:  Unsupported operand types in D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php on line 227
+[21-Apr-2016 10:21:51 PRC] PHP Fatal error:  Unsupported operand types in D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php on line 227
+[21-Apr-2016 10:21:52 PRC] PHP Fatal error:  Unsupported operand types in D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php on line 227
+[21-Apr-2016 10:25:56 PRC] PHP Fatal error:  Unsupported operand types in D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php on line 227
+[21-Apr-2016 10:26:02 PRC] PHP Fatal error:  Unsupported operand types in D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php on line 227
+[21-Apr-2016 10:26:58 PRC] PHP Fatal error:  Unsupported operand types in D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php on line 227
+[21-Apr-2016 10:26:59 PRC] PHP Fatal error:  Unsupported operand types in D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php on line 227
+[21-Apr-2016 10:26:59 PRC] PHP Fatal error:  Unsupported operand types in D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php on line 227
+[21-Apr-2016 10:28:12 PRC] PHP Fatal error:  Unsupported operand types in D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php on line 227
+[21-Apr-2016 10:29:06 PRC] PHP Fatal error:  Unsupported operand types in D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php on line 227
+[21-Apr-2016 10:29:26 PRC] PHP Fatal error:  Unsupported operand types in D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php on line 227
+[21-Apr-2016 10:31:34 PRC] PHP Fatal error:  Trait 'Home\Controller\Component\Traits\notetrait' not found in D:\project\tp\Application\Home\Controller\IndexController.class.php on line 8

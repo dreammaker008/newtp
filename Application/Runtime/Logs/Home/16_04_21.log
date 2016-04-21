@@ -1,0 +1,296 @@
+[ 2016-04-21T10:13:36+08:00 ] ::1 /home/index/testtrait
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012001s ]
+NOTIC: [4096] Argument 3 passed to GuzzleHttp\Client::request() must be of the type array, string given, called in D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php on line 87 and defined D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php 第 126 行.
+NOTIC: [2] Illegal string offset 'synchronous' D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php 第 128 行.
+NOTIC: [4096] Argument 3 passed to GuzzleHttp\Client::requestAsync() must be of the type array, string given, called in D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php on line 129 and defined D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php 第 107 行.
+NOTIC: [2] array_key_exists() expects parameter 2 to be array, string given D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php 第 216 行.
+
+[ 2016-04-21T10:14:47+08:00 ] ::1 /home/index/testtrait
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-21T10:15:11+08:00 ] ::1 /home/index/testtrait
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-21T10:16:49+08:00 ] ::1 /home/index/testtrait
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [4096] Argument 3 passed to GuzzleHttp\Client::request() must be of the type array, string given, called in D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php on line 87 and defined D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php 第 126 行.
+NOTIC: [2] Illegal string offset 'synchronous' D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php 第 128 行.
+NOTIC: [4096] Argument 3 passed to GuzzleHttp\Client::requestAsync() must be of the type array, string given, called in D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php on line 129 and defined D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php 第 107 行.
+NOTIC: [2] array_key_exists() expects parameter 2 to be array, string given D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php 第 216 行.
+
+[ 2016-04-21T10:19:56+08:00 ] ::1 /home/index/testtrait
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [4096] Argument 3 passed to GuzzleHttp\Client::request() must be of the type array, string given, called in D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php on line 87 and defined D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php 第 126 行.
+NOTIC: [2] Illegal string offset 'synchronous' D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php 第 128 行.
+NOTIC: [4096] Argument 3 passed to GuzzleHttp\Client::requestAsync() must be of the type array, string given, called in D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php on line 129 and defined D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php 第 107 行.
+NOTIC: [2] array_key_exists() expects parameter 2 to be array, string given D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php 第 216 行.
+
+[ 2016-04-21T10:19:57+08:00 ] ::1 /home/index/testtrait
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [4096] Argument 3 passed to GuzzleHttp\Client::request() must be of the type array, string given, called in D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php on line 87 and defined D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php 第 126 行.
+NOTIC: [2] Illegal string offset 'synchronous' D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php 第 128 行.
+NOTIC: [4096] Argument 3 passed to GuzzleHttp\Client::requestAsync() must be of the type array, string given, called in D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php on line 129 and defined D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php 第 107 行.
+NOTIC: [2] array_key_exists() expects parameter 2 to be array, string given D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php 第 216 行.
+
+[ 2016-04-21T10:21:27+08:00 ] ::1 /home/index/testtrait
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [4096] Argument 3 passed to GuzzleHttp\Client::request() must be of the type array, string given, called in D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php on line 87 and defined D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php 第 126 行.
+NOTIC: [2] Illegal string offset 'synchronous' D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php 第 128 行.
+NOTIC: [4096] Argument 3 passed to GuzzleHttp\Client::requestAsync() must be of the type array, string given, called in D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php on line 129 and defined D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php 第 107 行.
+NOTIC: [2] array_key_exists() expects parameter 2 to be array, string given D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php 第 216 行.
+
+[ 2016-04-21T10:21:28+08:00 ] ::1 /home/index/testtrait
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [4096] Argument 3 passed to GuzzleHttp\Client::request() must be of the type array, string given, called in D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php on line 87 and defined D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php 第 126 行.
+NOTIC: [2] Illegal string offset 'synchronous' D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php 第 128 行.
+NOTIC: [4096] Argument 3 passed to GuzzleHttp\Client::requestAsync() must be of the type array, string given, called in D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php on line 129 and defined D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php 第 107 行.
+NOTIC: [2] array_key_exists() expects parameter 2 to be array, string given D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php 第 216 行.
+
+[ 2016-04-21T10:21:51+08:00 ] ::1 /home/index/testtrait
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [4096] Argument 3 passed to GuzzleHttp\Client::request() must be of the type array, string given, called in D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php on line 87 and defined D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php 第 126 行.
+NOTIC: [2] Illegal string offset 'synchronous' D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php 第 128 行.
+NOTIC: [4096] Argument 3 passed to GuzzleHttp\Client::requestAsync() must be of the type array, string given, called in D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php on line 129 and defined D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php 第 107 行.
+NOTIC: [2] array_key_exists() expects parameter 2 to be array, string given D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php 第 216 行.
+
+[ 2016-04-21T10:21:52+08:00 ] ::1 /home/index/testtrait
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [4096] Argument 3 passed to GuzzleHttp\Client::request() must be of the type array, string given, called in D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php on line 87 and defined D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php 第 126 行.
+NOTIC: [2] Illegal string offset 'synchronous' D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php 第 128 行.
+NOTIC: [4096] Argument 3 passed to GuzzleHttp\Client::requestAsync() must be of the type array, string given, called in D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php on line 129 and defined D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php 第 107 行.
+NOTIC: [2] array_key_exists() expects parameter 2 to be array, string given D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php 第 216 行.
+
+[ 2016-04-21T10:22:18+08:00 ] ::1 /home/index/testtrait
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-21T10:22:58+08:00 ] ::1 /home/index/testtrait
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-21T10:23:04+08:00 ] ::1 /home/index/testtrait
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-21T10:24:35+08:00 ] ::1 /home/index/testtrait
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-21T10:25:56+08:00 ] ::1 /home/index/testtrait
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [4096] Argument 3 passed to GuzzleHttp\Client::request() must be of the type array, string given, called in D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php on line 87 and defined D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php 第 126 行.
+NOTIC: [2] Illegal string offset 'synchronous' D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php 第 128 行.
+NOTIC: [4096] Argument 3 passed to GuzzleHttp\Client::requestAsync() must be of the type array, string given, called in D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php on line 129 and defined D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php 第 107 行.
+NOTIC: [2] array_key_exists() expects parameter 2 to be array, string given D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php 第 216 行.
+
+[ 2016-04-21T10:26:02+08:00 ] ::1 /home/index/testtrait
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [4096] Argument 3 passed to GuzzleHttp\Client::request() must be of the type array, string given, called in D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php on line 87 and defined D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php 第 126 行.
+NOTIC: [2] Illegal string offset 'synchronous' D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php 第 128 行.
+NOTIC: [4096] Argument 3 passed to GuzzleHttp\Client::requestAsync() must be of the type array, string given, called in D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php on line 129 and defined D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php 第 107 行.
+NOTIC: [2] array_key_exists() expects parameter 2 to be array, string given D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php 第 216 行.
+
+[ 2016-04-21T10:26:58+08:00 ] ::1 /home/index/testtrait
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [4096] Argument 3 passed to GuzzleHttp\Client::request() must be of the type array, string given, called in D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php on line 87 and defined D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php 第 126 行.
+NOTIC: [2] Illegal string offset 'synchronous' D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php 第 128 行.
+NOTIC: [4096] Argument 3 passed to GuzzleHttp\Client::requestAsync() must be of the type array, string given, called in D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php on line 129 and defined D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php 第 107 行.
+NOTIC: [2] array_key_exists() expects parameter 2 to be array, string given D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php 第 216 行.
+
+[ 2016-04-21T10:26:59+08:00 ] ::1 /home/index/testtrait
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [4096] Argument 3 passed to GuzzleHttp\Client::request() must be of the type array, string given, called in D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php on line 87 and defined D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php 第 126 行.
+NOTIC: [2] Illegal string offset 'synchronous' D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php 第 128 行.
+NOTIC: [4096] Argument 3 passed to GuzzleHttp\Client::requestAsync() must be of the type array, string given, called in D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php on line 129 and defined D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php 第 107 行.
+NOTIC: [2] array_key_exists() expects parameter 2 to be array, string given D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php 第 216 行.
+
+[ 2016-04-21T10:26:59+08:00 ] ::1 /home/index/testtrait
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [4096] Argument 3 passed to GuzzleHttp\Client::request() must be of the type array, string given, called in D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php on line 87 and defined D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php 第 126 行.
+NOTIC: [2] Illegal string offset 'synchronous' D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php 第 128 行.
+NOTIC: [4096] Argument 3 passed to GuzzleHttp\Client::requestAsync() must be of the type array, string given, called in D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php on line 129 and defined D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php 第 107 行.
+NOTIC: [2] array_key_exists() expects parameter 2 to be array, string given D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php 第 216 行.
+
+[ 2016-04-21T10:27:29+08:00 ] ::1 /home/index/testtrait
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-21T10:27:31+08:00 ] ::1 /home/index/testtrait
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-21T10:28:12+08:00 ] ::1 /home/index/testtrait
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [4096] Argument 3 passed to GuzzleHttp\Client::request() must be of the type array, string given, called in D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php on line 87 and defined D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php 第 126 行.
+NOTIC: [2] Illegal string offset 'synchronous' D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php 第 128 行.
+NOTIC: [4096] Argument 3 passed to GuzzleHttp\Client::requestAsync() must be of the type array, string given, called in D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php on line 129 and defined D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php 第 107 行.
+NOTIC: [2] array_key_exists() expects parameter 2 to be array, string given D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php 第 216 行.
+
+[ 2016-04-21T10:28:54+08:00 ] ::1 /home/index/testtrait
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-21T10:29:06+08:00 ] ::1 /home/index/testtrait
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [4096] Argument 3 passed to GuzzleHttp\Client::request() must be of the type array, string given, called in D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php on line 87 and defined D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php 第 126 行.
+NOTIC: [2] Illegal string offset 'synchronous' D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php 第 128 行.
+NOTIC: [4096] Argument 3 passed to GuzzleHttp\Client::requestAsync() must be of the type array, string given, called in D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php on line 129 and defined D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php 第 107 行.
+NOTIC: [2] array_key_exists() expects parameter 2 to be array, string given D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php 第 216 行.
+
+[ 2016-04-21T10:29:26+08:00 ] ::1 /home/index/testtrait
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [4096] Argument 3 passed to GuzzleHttp\Client::request() must be of the type array, string given, called in D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php on line 87 and defined D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php 第 126 行.
+NOTIC: [2] Illegal string offset 'synchronous' D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php 第 128 行.
+NOTIC: [4096] Argument 3 passed to GuzzleHttp\Client::requestAsync() must be of the type array, string given, called in D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php on line 129 and defined D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php 第 107 行.
+NOTIC: [2] array_key_exists() expects parameter 2 to be array, string given D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php 第 216 行.
+
+[ 2016-04-21T10:30:39+08:00 ] ::1 /home/index/testtrait
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-21T10:31:29+08:00 ] ::1 /home/index/testtrait
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-21T10:31:34+08:00 ] ::1 /home/index/testtrait
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-21T10:31:40+08:00 ] ::1 /home/index/testtrait
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+

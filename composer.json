@@ -1,0 +1,27 @@
+{
+    "name": "topthink/thinkphp",
+    "description": "the ThinkPHP Framework",
+    "type": "framework",
+    "keywords": ["framework","thinkphp","ORM"],
+    "homepage": "http://thinkphp.cn/",
+    "license": "Apache2",
+    "authors": [
+        {
+            "name": "liu21st",
+            "email": "liu21st@gmail.com"
+        }
+    ],
+    "require": {
+		"Component/restclient":"1.0.*",
+        "php": ">=5.3.0"
+    },
+	"repositories": [
+        {"type": "composer", "url": "http://packagist.phpcomposer.com"},
+        {
+            "type":"git",
+            "url":"https://git.gaodun.com/gitlab/component/restclient.git"
+        },
+        {"packagist": false}
+    ],
+    "minimum-stability": "dev"
+}
