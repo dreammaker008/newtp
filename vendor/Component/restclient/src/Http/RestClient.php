@@ -10,6 +10,7 @@ class RestClient extends HttpClient {
      * @access public
      */
     public $appId     = '';
+
     /**
      * appSecret 
      * 
@@ -25,10 +26,10 @@ class RestClient extends HttpClient {
      * default request options to apply to each request:
      *
      *     $client = new RestClient([
-     *         'base_uri'        => 'http://www.foo.com/1.0/',
-     *         'timeout'         => 0,
-     *         'allow_redirects' => false,
-     *         'proxy'           => '192.168.16.1:10'
+     *         'base_uri'        => 'http://base.gaodun.com/course',
+     *         'timeout'         => 10,
+     *         'app_id'          => 'gd_course_ephiphany', 
+     *         'app_secret'      => 'ca6d93b43feae5b286629c0f0dab3178'
      *     ]);
      *
      * 
@@ -46,8 +47,11 @@ class RestClient extends HttpClient {
         $config +=[ 'timeout' => 10, 'base_uri' => 'http://base.gaodun.com', 
             'allow_redirects '=> false,
             ];
+
         parent :: __construct($config);
+
     }
+
     /**
      * prepareDefaultOptions 
      * 
@@ -62,9 +66,11 @@ class RestClient extends HttpClient {
         $headers['App-Signature'] = $this->signature($timestamp, $nonce, $this->appSecret);
         $headers['App-Timestamp'] = $timestamp;
         $headers['App-nonce']     =  $nonce;
+
         return ['headers' => $headers ];
 
     }
+
     /**
      * genRandStr 
      * 
@@ -72,7 +78,7 @@ class RestClient extends HttpClient {
      * @access public
      * @return mixed
      */
-    function genRandStr($length) 
+    public function genRandStr($length) 
     {
         $str  = '';
         $strPol = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789abcdefghijklmnopqrstuvwxyz";
@@ -99,11 +105,17 @@ class RestClient extends HttpClient {
         $tmpArr = array($token, $timestamp, $nonce);
         sort($tmpArr, SORT_STRING);
         $tmpStr = implode( $tmpArr );
+
         return  sha1( $tmpStr );
+
     }
+
     /**
-     * post 
+     * post 发送post请求 
      * 
+     *    $cliet->post('Home/CommentRest',[
+     * ])
+     *
      * @param mixed $uri 
      * @param array $options 
      * @access public
@@ -113,7 +125,9 @@ class RestClient extends HttpClient {
     {
         $options += $this->prepareDefaultOptions(); 
         $response = $this->request('POST', $uri, $options);
+
         return new JsonResponse($response);
+
     }
     /**
      * get 
@@ -127,20 +141,24 @@ class RestClient extends HttpClient {
     {
         $options += $this->prepareDefaultOptions(); 
         $response = $this->request('GET', $uri, $options);
+
         return new JsonResponse($response);
 
     }
+
     /**
      * delete 
      * 
      * @access public
      * @return mixed
      */
-    function delete() 
+    function delete($uri, $options) 
     {
         $options += $this->prepareDefaultOptions(); 
         $response = $this->request('DELETE', $uri, $options);
+
         return new JsonResponse($response);
+
     }
     /**
      * put 
@@ -148,10 +166,12 @@ class RestClient extends HttpClient {
      * @access public
      * @return mixed
      */
-    function put() 
+    function put($uri, $options) 
     {
         $options += $this->prepareDefaultOptions(); 
         $response = $this->request('PUT', $uri, $options);
+
         return new JsonResponse($response);
+
     }
 }

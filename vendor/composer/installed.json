@@ -229,12 +229,12 @@
     },
     {
         "name": "Component/restclient",
-        "version": "v1.0.1",
-        "version_normalized": "1.0.1.0",
+        "version": "v1.0.3",
+        "version_normalized": "1.0.3.0",
         "source": {
             "type": "git",
             "url": "https://git.gaodun.com/gitlab/component/restclient.git",
-            "reference": "168d351cfb4db92e7e39b26166e1d4411f066f3d"
+            "reference": "54613e75b9e0282c7506ed157cbbe8908c78d824"
         },
         "require": {
             "guzzlehttp/guzzle": "^6.2"
@@ -242,7 +242,7 @@
         "require-dev": {
             "phpunit/phpunit": "^5.3"
         },
-        "time": "2016-04-13 09:02:11",
+        "time": "2016-04-21 09:39:18",
         "type": "library",
         "installation-source": "source",
         "autoload": {
@@ -254,6 +254,30 @@
             {
                 "name": "刘国靖",
                 "email": "liuguojing@gaodun.com"
+            }
+        ]
+    },
+    {
+        "name": "Component/trait",
+        "version": "v1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://git.gaodun.com/gitlab/component/trait.git",
+            "reference": "2d072d7e6258d9ee38e94fb539fadf84b777f22c"
+        },
+        "time": "2016-04-21 10:11:18",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Component\\": "src/"
+            }
+        },
+        "authors": [
+            {
+                "name": "jasonchen",
+                "email": "jason.chen@gaodun.com"
             }
         ]
     }

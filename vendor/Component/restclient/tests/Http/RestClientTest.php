@@ -1,29 +1,114 @@
-<?php
-
-namespace tests\Http;
-
+<?php 
+namespace  tests\Http;
 use Component\Http\RestClient;
-
-class RestClientTest extends \PHPUnit_Framework_TestCase
-{
+/**
+ * RestClientTest 
+ * 
+ * @package 
+ * @version $id$
+ * @copyright Copyright (c) 2012-2016 Gaodun Co. All Rights Reserved.
+ * @author Guojing Liu <liuguojing@gaodun.com> 
+ * @license 
+ */
+class RestClientTest extends \PHPUnit_Framework_TestCase {
+    /**
+     * restClient 
+     * 
+     * @var string
+     * @access public
+     */
     public $restClient = '';
+
+    /**
+     * setUp 
+     * 
+     * @access public
+     * @return mixed
+     */
     public function setUp()
     {
-        $this->restClient = new RestClient(['base_uri' => 'http://dev.base.gaodun.com',
-            'app_id' => 'gd_care_partner', 'app_secret' => 'ca6d93b43feae5b286629c0f0dab3178',
-        ]);
+        $this->restClient = new RestClient(['base_uri'=>'http://dev.base.gaodun.com/course/',
+                'app_id' => 'gd_course_ephiphany', 'app_secret' => 'ca6d93b43feae5b286629c0f0dab3178'
+                ]);
     }
-    public function testGet()
+    /**
+     * testGetCourse 
+     * 
+     * @access public
+     * @return mixed
+     */
+    function testGetCourse()
     {
-        $map = [
-            'ps' => 1,
-            'page' => 2,
-            'order' => 'id desc',
-        ];
-        $response = $this->restClient->get('/note/home/notes', ['query' => $map]);
+        $response =  $this->restClient->get('Home/CourseRest/11', [
+                ]
+                );
 
         $this->assertEquals(0, $response->json()->status);
-        //$this->assertNotEmpty($response->json(true)['result']);
+        $this->assertNotEmpty($response->json()->result);
+    }
+    /**
+     * testGetSyllabusWare 
+     * 
+     * @access public
+     * @return mixed
+     */
+    function testGetSyllabusWare()
+    {
+        $response =  $this->restClient->get('Home/SyllabusWareRest?syllabus_id=1713&course_id=1780', [
+                ]
+                );
+
+        $this->assertEquals(0, $response->json()->status);
+        $this->assertNotEmpty($response->json()->result);
+    }
+    /**
+     * testGetResourceWare 
+     * 
+     * @access public
+     * @return mixed
+     */
+    function testGetResourceWare()
+    {
+        $response =  $this->restClient->get('Home/WareResourceRest/?ware_id=58', [
+                ]
+                );
+
+        $this->assertEquals(0, $response->json()->status);
+        $this->assertNotEmpty($response->json()->result);
+    }
+    /**
+     * testGetResource 
+     * 
+     * @access public
+     * @return mixed
+     */
+    function testGetResource()
+    {
+        $response =  $this->restClient->get('Home/ResourceRest/35', [
+                ]
+                );
+
+        $this->assertEquals(0, $response->json()->status);
+        $this->assertNotEmpty($response->json()->result);
+    }
+    function testGetWare()
+    {
+        $response =  $this->restClient->get('Home/WareRest/62', [
+                ]
+                );
+
+        $this->assertEquals(0, $response->json()->status);
+        $this->assertNotEmpty($response->json()->result);
+    }
+    function testGetCourseSyllabus()
+    {
+        $response =  $this->restClient->get('Home/CourseSyllabusRest?course_id=1780&level=2', [
+                ]
+                );
+
+        $this->assertEquals(0, $response->json()->status);
+        $this->assertNotEmpty($response->json()->result);
     }
 
 }
+

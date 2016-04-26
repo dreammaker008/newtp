@@ -33,3 +33,6 @@
 [21-Apr-2016 10:29:06 PRC] PHP Fatal error:  Unsupported operand types in D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php on line 227
 [21-Apr-2016 10:29:26 PRC] PHP Fatal error:  Unsupported operand types in D:\project\tp\vendor\guzzlehttp\guzzle\src\Client.php on line 227
 [21-Apr-2016 10:31:34 PRC] PHP Fatal error:  Trait 'Home\Controller\Component\Traits\notetrait' not found in D:\project\tp\Application\Home\Controller\IndexController.class.php on line 8
+[26-Apr-2016 10:21:15 Asia/Shanghai] PHP Fatal error:  Interface 'Psr\Http\Message\UriInterface' not found in D:\project\newtp\vendor\guzzlehttp\psr7\src\Uri.php on line 13
+[26-Apr-2016 10:22:34 Asia/Shanghai] PHP Fatal error:  Interface 'Psr\Http\Message\UriInterface' not found in D:\project\newtp\vendor\guzzlehttp\psr7\src\Uri.php on line 13
+[26-Apr-2016 10:22:52 Asia/Shanghai] PHP Fatal error:  Interface 'Psr\Http\Message\UriInterface' not found in D:\project\newtp\vendor\guzzlehttp\psr7\src\Uri.php on line 13
